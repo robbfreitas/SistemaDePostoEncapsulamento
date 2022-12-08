@@ -9,9 +9,10 @@ namespace SistemaDeEstoquePOOcomCsharp
         {
             Produto p = new Produto("TV", 500.00, 2);
 
-            
+            p.Nome = "TV Nova";
 
-            Console.WriteLine(p);
+            Console.WriteLine(p.Nome);
+            Console.WriteLine(p.Preco);
         }
     }
 }
